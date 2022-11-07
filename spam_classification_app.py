@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 # Load the Multinomial Naive Bayes model and CountVectorizer
-classifier = pickle.load(open('/content/drive/MyDrive/Spam SMS Classification /spam_classification.pkl', 'rb'))
+classifier = pickle.load(open('/content/drive/MyDrive/Spam SMS Classification /spam_classification_model.pkl', 'rb'))
 cv = pickle.load(open('/content/drive/MyDrive/Spam SMS Classification /cv-transform.pkl','rb'))
 
 import re
